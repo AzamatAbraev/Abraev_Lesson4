@@ -1,0 +1,295 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+p {
+  font-family: arial;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.right-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 260px;
+  margin-right: 20px;
+}
+
+.company-logo {
+  height: 70px;
+  margin-right: 10px;
+}
+
+.header-text {
+  font-family: arial;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-upgrade {
+  background-color: rgb(151, 99, 246);
+  color: white;
+  font-weight: bold;
+}
+
+.btn-upgrade:hover {
+  background-color:rgb(130, 81, 222)
+}
+
+.btn-certified {
+  background-color: rgb(255, 192, 199);
+  font-weight: 600px;
+}
+
+.btn-certified:hover {
+  background-color:rgb(242, 181, 188);
+}
+
+.btn-create {
+  background-color: rgb(255, 244, 163);
+  font-weight: 600px;
+}
+
+.btn-create:hover {
+  background-color:rgb(237, 225, 135); ;
+}
+
+.btn-login {
+  background-color: rgb(181, 240, 204);
+}
+
+.btn-login:hover {
+  background-color:rgb(4, 170, 109);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+ 
+}
+
+a:hover {
+  color: white;
+  background-color: rgb(4, 165, 106);
+  padding: 24px 2px;
+}
+
+
+
+
+
+.main-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.title-info {
+  font-size: 22px;
+  color: rgb(255, 192, 199);
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: block;
+  width: 600px;
+  height: 50px;
+  font-size: 16px;
+  padding-left: 15px;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.bar-bottom-link {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 200px;
+  text-decoration: underline;
+}
+
+.bar-bottom-link:hover {
+  background-color: rgb(40, 42, 53);
+  padding: 0px 0px;
+  color:rgb(4, 165, 106);
+
+}
+
+.website-search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 150px;
+  background-color: rgb(40, 42, 53);
+}
+
+.html-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(217, 238, 225);
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.html-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.html-description {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.html-text {
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.html-buttons button {
+  width: 200px;
+  margin-bottom: 25px;
+}
+
+.code-pic {
+  height: 450px;
+}
+
+.learn-html {
+  background-color: rgb(4, 170, 109);
+  color: white;
+}
+
+.learn-html:hover {
+  background-color:rgb(8, 137, 90);
+}
+.video-tutorial {
+  background-color: rgb(255, 244, 163);
+}
+
+.video-tutorial:hover {
+  background-color: rgb(234, 222, 131);
+}
+
+.html-reference {
+  background-color: rgb(34, 32, 32);
+  color: white;
+}
+
+.html-reference:hover {
+  background-color: black;
+}
+
+.get-certified {
+  background-color: rgb(255, 192, 199);
+}
+
+.get-certified:hover {
+  background-color: rgb(242, 181, 188);
+}
+
+
+.css-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(255, 244, 163);
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.code-example-css {
+  height: 450px;
+}
+
+.java-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(40, 42, 53);
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.java-page p {
+  color: white;
+}
+
+#java-reference {
+  background-color: white;
+  color: black;
+}
+
+#java-reference:hover {
+  background-color: rgb(237, 229, 229);;
+}
+
+.code-example-java {
+  height: 450px;
+}
+
+.python-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(243, 236, 234);
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  background-color: rgb(40, 42, 53);
+}
+
+.footer-text {
+  font-size: 14px;
+  color: white;
+  padding: 50px 10px;
+  line-height: 1.8;
+}
+
+.warrant {
+  margin-left: 250px;
+}
+
+.policy {
+  margin-right: 250px;
+}
+
+.copyright {
+  margin-left: 500px;
+}
+
+
+
+
+
+
